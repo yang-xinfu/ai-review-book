@@ -1,3 +1,10 @@
 spring:
   application:
     name:  ai-review-book
+  ai:
+    zhipuai:
+      api-key: 081007272892458f89bd207a6f3bfc7f.hFcjQZHhJbtBZbvk
+      base-url: https://open.bigmodel.cn/api/paas
+      chat:
+        options:
+          model: GLM-4-Flash-250414
